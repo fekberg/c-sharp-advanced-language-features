@@ -1,0 +1,51 @@
+[
+  {
+    "Total": 180,
+    "LineItems": [
+      {
+        "Name": "PS1",
+        "Price": 50,
+        "InStock": false
+      },
+      {
+        "Name": "PS2",
+        "Price": 60,
+        "InStock": false
+      },
+      {
+        "Name": "PS3",
+        "Price": 70,
+        "InStock": false
+      }
+    ],
+    "IsReadyForShipment": true,
+    "OrderNumber": "8101e88e-ff6a-4eb7-af07-bdaef0b711e6",
+    "ShippingProvider": {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "Name": null,
+      "FreightCost": 0
+    }
+  },
+  {
+    "Total": 170,
+    "LineItems": [
+      {
+        "Name": "PS4",
+        "Price": 80,
+        "InStock": false
+      },
+      {
+        "Name": "PS5",
+        "Price": 90,
+        "InStock": false
+      }
+    ],
+    "IsReadyForShipment": true,
+    "OrderNumber": "0b7c7c69-c46a-4585-a3be-e4f3f0fe96d1",
+    "ShippingProvider": {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "Name": null,
+      "FreightCost": 0
+    }
+  }
+]
