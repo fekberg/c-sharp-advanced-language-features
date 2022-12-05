@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\WarehouseManagementSystem.Business\WarehouseManagementSystem.Business.csproj" />
+  </ItemGroup>
+   
+  <ItemGroup>
     <None Update="orders.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
