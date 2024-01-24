@@ -2,6 +2,7 @@
 using WarehouseManagementSystem.Domain;
 using WarehouseManagementSystem.Domain.Extensions;
 
+
 Order order = new Order
 {
     LineItems = new[]
@@ -20,7 +21,7 @@ var cheapestItems = order.LineItems.Where(item => item.Price > 60)
 
 
 
-
+var instance = new { Order = order.OrderNumber, Items = order.LineItems.Count(), Total = order.LineItems.Sum(x => x.Price) };
 
 
 

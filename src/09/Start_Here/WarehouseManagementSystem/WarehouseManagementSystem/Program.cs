@@ -124,15 +124,15 @@ Console.WriteLine(json);
 Console.ReadLine();
 
 // Modifying and Returning Anonymous Types 
-var result = processor.Process(orders);
+var result2 = processor.Process(orders);
 
-var type = result.GetType();
+var type = result2.GetType();
 var properties = type.GetProperties();
 
 foreach (var property in properties)
 {
     Console.WriteLine($"Property: {property.Name}");
-    Console.WriteLine($"Value: {property.GetValue(result)}");
+    Console.WriteLine($"Value: {property.GetValue(result2)}");
 }
 
 Console.ReadLine();

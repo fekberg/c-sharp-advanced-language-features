@@ -18,7 +18,7 @@ namespace WarehouseManagementSystem.MacOS
 #endif
             #region Populate the UI
             var json = File.ReadAllText("orders.json");
-            Orders.Items = JsonSerializer.Deserialize<Order[]>(json);
+            Orders.ItemsSource = JsonSerializer.Deserialize<Order[]>(json);
             #endregion
         }
         private void ProcessOrder_Click(object sender, RoutedEventArgs args)

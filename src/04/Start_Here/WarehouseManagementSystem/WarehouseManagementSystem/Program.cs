@@ -22,7 +22,7 @@ var processor = new OrderProcessor
     OnOrderInitialized = isReadyForShipment
 };
 
-var onCompleted = (object order) =>
+var onCompleted = (Order order) =>
 {
     Console.WriteLine($"Processed {order.OrderNumber}");
 }; 

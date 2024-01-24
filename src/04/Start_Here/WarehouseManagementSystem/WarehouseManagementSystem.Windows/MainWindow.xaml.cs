@@ -1,7 +1,6 @@
 ﻿using System.IO;
 using System.Text.Json;
 using System.Windows;
-using WarehouseManagementSystem.Business;
 using WarehouseManagementSystem.Domain;
 
 namespace WarehouseManagementSystem.Windows

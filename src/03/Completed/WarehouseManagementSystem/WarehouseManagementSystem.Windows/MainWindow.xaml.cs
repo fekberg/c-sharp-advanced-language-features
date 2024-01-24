@@ -24,5 +24,10 @@ namespace WarehouseManagementSystem.Windows
         {
             InitializeComponent();
         }
+
+        private void ProcessOrder_Click(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -4,7 +4,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="WarehouseManagementSystem.MacOS.ReceiptWindow"
-       FontSize="24"
+        FontSize="24"
         WindowStartupLocation="CenterOwner"
         Title="Order Receipt" Height="500" Width="350">
 	<Grid>
